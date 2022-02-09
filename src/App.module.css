@@ -1,0 +1,38 @@
+.item:hover {
+  background: #00f2;
+}
+.item.active {
+  background: #00fa;
+  color: #fff;
+}
+.scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  scrollbar-width: thin;
+}
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #0003;
+  background-clip: padding-box;
+  border: 1px solid transparent;
+  min-height: 40px;
+  visibility: hidden;
+}
+
+.scroll:hover::-webkit-scrollbar-thumb {
+  visibility: initial;
+}
+
+.message {
+  background: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.75rem;
+  width: min-content;
+}
+
+.left {
+  align-self: flex-start;
+}
+.right {
+  justify-self: flex-end;
+}
