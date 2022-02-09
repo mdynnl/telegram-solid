@@ -1,6 +1,8 @@
 import { Router } from 'solid-app-router'
 import { render } from 'solid-js/web'
 import App from './App'
+import 'uno.css'
+import '@unocss/reset/tailwind.css'
 import './index.css'
 
 import { createEventListenerMap } from '@solid-primitives/event-listener'
