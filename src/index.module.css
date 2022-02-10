@@ -1,0 +1,20 @@
+.scroll {
+  overflow: hidden auto;
+  height: 100%;
+}
+.scroll::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  scrollbar-width: thin;
+  background: var(--scroll-bg, transparent);
+}
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #fff2;
+  min-height: 200px;
+  visibility: hidden;
+}
+
+.scroll:hover::-webkit-scrollbar-thumb {
+  visibility: initial;
+}

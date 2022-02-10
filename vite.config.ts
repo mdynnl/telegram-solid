@@ -7,5 +7,6 @@ import { presetUno as css, presetIcons as icons } from 'unocss'
 export default defineConfig({
   envPrefix: '_',
   resolve: { alias: { '~': '/src' } },
+  base: './',
   plugins: [uno({ presets: [css({}), icons({})] }), solid({ babel: { plugins: [labels] } })],
 })
